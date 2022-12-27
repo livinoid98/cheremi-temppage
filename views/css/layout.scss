@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap');
+
+
+.top-banner{
+    width:100%;
+    height:40px;
+    background-color:#04232D;
+    color:#FFF;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.header-bg{
+    width:100%;
+    height:80px;
+    background-color:#FFF;
+    header{
+        width:1200px;
+        height:80px;
+        margin:0 auto;
+        display:flex;
+        justify-content:space-between;
+        padding:0px 20px;
+        .logo{
+            width:122px;
+            h1{
+                a{
+                    svg{
+                        width:100%;
+                        height:80px;
+                    }
+                }
+            }
+        }
+        nav{
+            ul{
+                width:100%;
+                height:80px;
+                display:flex;
+                align-items:center;
+                h2{
+                    margin-left:40px;
+                    li{
+                        font-family:'Pretendard-bold';
+                        font-size:18px;
+                        color:#2C2A25;
+                    }
+                    &:nth-child(1){
+                        margin-left:0px;
+                    }
+                }
+                
+            }
+        }
+        .icon-wrap{
+            width:32px;
+            height:80px;
+            display:flex;
+            align-items:center;
+        }
+    }
+}
+
+
+.footer-bg{
+    width:100%;
+    height:578px;
+    background-color:#2A2822;
+    display:flex;
+    align-items:center;
+    footer{
+        width:1200px;
+        margin:0 auto;
+        display:flex;
+        align-items:center;
+        font-size:14px;
+        .footer-logo{
+            h5{
+                font-family:'Philosopher';
+                font-size:26px;
+                line-height:35.26px;
+                color:#FFF;
+            }
+        }
+        .footer-info{
+            color:#FFF;
+            margin-left:100px;
+            nav{
+                ul{
+                    display:flex;
+                    li{
+                        margin-left:50px;
+                        font-size:14px;
+                        line-height:130%;
+                        &:nth-child(1){
+                            margin-left:0px;
+                        }
+                    }
+                }
+            }
+            .cs-info{
+                display:flex;
+                margin-top:40px;
+                h5{
+                    width:120px;
+                    font-family:'Pretendard-bold';
+                }
+                ul{
+                    margin-left:36px;
+                    li{
+                        line-height:20px;
+                    }
+                }
+            }
+            .company-info{
+                display:flex;
+                margin-top:34px;
+                h5{
+                    font-family:'Pretendard-bold';
+                }
+                ul{
+                    margin-left:20px;
+                    li{
+                        line-height:20px;
+                    }
+                }
+            }
+            .bank-info{
+                display:flex;
+                margin-top:38px;
+                h5{
+                    font-family:'Pretendard-bold';
+                }
+                p{
+                    margin-left:84px;
+                }
+            }
+        }
+    }
+}
