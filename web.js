@@ -6,7 +6,7 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
 app.use(express.json());
-app.use(express.static('views'));
+app.use(express.static(__dirname + '/views'));
 
 const indexRouter = require(__dirname + '/views/routes/index');
 
