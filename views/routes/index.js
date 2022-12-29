@@ -7,6 +7,10 @@ router.get("/", (req,res) => {
 
 router.get("/shop", (req,res) => {
     res.render('shop');
-})
+});
+
+router.get("/login", (req,res) => {
+    res.render('login');
+});
 
 module.exports = router;

@@ -30,7 +30,7 @@
   height: 80px;
 }
 .header-bg header nav ul {
-  width: 100%;
+  width: auto;
   height: 80px;
   display: flex;
   align-items: center;
@@ -47,10 +47,14 @@
   margin-left: 0px;
 }
 .header-bg header .icon-wrap {
-  width: 32px;
+  width: 200px;
   height: 80px;
   display: flex;
+  justify-content: center;
   align-items: center;
+}
+.header-bg header .icon-wrap ul {
+  display: flex;
 }
 
 .footer-bg {

@@ -35,7 +35,7 @@
         }
         nav{
             ul{
-                width:100%;
+                width:auto;
                 height:80px;
                 display:flex;
                 align-items:center;
@@ -54,10 +54,14 @@
             }
         }
         .icon-wrap{
-            width:32px;
+            width:200px;
             height:80px;
             display:flex;
+            justify-content:center;
             align-items:center;
+            ul{
+                display:flex;
+            }
         }
     }
 }
